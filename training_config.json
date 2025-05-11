@@ -1,0 +1,16 @@
+{
+  "language": "th",
+  "pipeline": [
+    "parser"
+  ],
+  "batch_size": 1000,
+  "max_epochs": 10,
+  "dropout": 0.2,
+  "patience": 3,
+  "eval_frequency": 1000,
+  "seed": 42,
+  "gpu_allocator": "cpu",
+  "learn_rate": 0.001,
+  "use_gpu": false,
+  "show_progress": true
+}
