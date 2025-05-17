@@ -1,0 +1,12 @@
+name: spacy_nlp_py310
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - spacy
+  - spacy-transformers
+  - pip:
+    - pythainlp[full]
+    - spacy-lookups-data
+    - spacy[th]
